@@ -40,7 +40,6 @@ body {
 
 .eye,
 .image-div,
-.logo,
 .navbar,
 .project-box,
 .resume-btn,
@@ -412,7 +411,7 @@ noscript {
 }
 
 .logo {
-    width: 10%;
+    width: 30%;
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -438,7 +437,7 @@ noscript {
     background-color: #20222e;
     padding: 5px 10px;
     border-radius: 20px;
-    left: 120px;
+    left: 30vw;
     bottom: 80px;
     opacity: 0
 }
@@ -523,8 +522,9 @@ noscript {
     background: #241010
 }
 
-.logo:hover {
-    transform: translateY(200px)
+.logo-top img:hover {
+    transform: translateY(500px);
+    cursor: pointer;
 }
 
 .activeThistab:before {
@@ -534,7 +534,8 @@ noscript {
 
 .dp::after,
 .dp::before {
-    height: 300px;
+
+    height: 100px;
     z-index: -2;
     content: ""
 }
@@ -1589,7 +1590,7 @@ footer {
         justify-content: center
     }
 
-    .logo:hover {
+    .logo-top:hover {
         transform: translateY(200px);
         transition-duration: 1s
     }
@@ -1721,6 +1722,9 @@ footer {
         transform: translate(1000px);
         transition-duration: 1s
     }
+    .logo{
+        width: 70%;
+    }
 
     .show-toggle-menu {
         transform: translate(0);
@@ -1808,7 +1812,9 @@ footer {
     html {
         font-size: 50%
     }
-
+    .logo{
+        width: 70%;
+    }
     .text-content {
         padding-left: 0;
         width: 80%
@@ -1847,11 +1853,8 @@ footer {
         display: none
     }
 
-    .logo {
-        width: 18%
-    }
 
-    .logo:hover {
+    .logo-top:hover {
         transform: translateY(200px);
         transition-duration: 1s
     }
@@ -1868,6 +1871,9 @@ footer {
 @media screen and (max-width:500px) {
     html {
         font-size: 45%
+    }
+    .logo{
+        width: 90%;
     }
 
     .hamburgerbase,
@@ -1936,6 +1942,9 @@ footer {
     html {
         font-size: 45%
     }
+    .logo{
+        width: 90%;
+    }
 
     .about-section,
     .projects-section-div,
@@ -1955,6 +1964,9 @@ footer {
 @media screen and (max-width:375px) {
     html {
         font-size: 42%
+    }
+    .logo{
+        width: 70%;
     }
 
     .dp img {
@@ -1981,6 +1993,9 @@ footer {
 @media screen and (max-width:300px) {
     html {
         font-size: 42%
+    }
+    .logo{
+        width: 80%;
     }
 
     .language-name article {
