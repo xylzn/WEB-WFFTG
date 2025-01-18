@@ -331,6 +331,10 @@ noscript {
     align-items: center;
     position: fixed
 }
+.icon{
+    width: 32px;
+    height: 32px;
+}
 
 #name,
 .getintouch-heading article {
