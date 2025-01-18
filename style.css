@@ -332,7 +332,7 @@ noscript {
     position: fixed
 }
 .icon{
-    width: 32px;
+    width: auto;
     height: 32px;
 }
 
@@ -982,7 +982,8 @@ noscript {
 .dp img,
 .dp::after,
 .dp::before {
-    width: 300px
+    width: 100vw;
+    height: auto;
 }
 
 .projects-heading-article,
@@ -1022,9 +1023,8 @@ noscript {
 }
 
 .dp {
-    width: 40%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     position: relative
 }
