@@ -527,7 +527,7 @@ noscript {
 }
 
 .logo-top img:hover {
-    transform: translateY(500px);
+    transform: translateY(100px);
     cursor: pointer;
 }
 
@@ -982,7 +982,7 @@ noscript {
 .dp img,
 .dp::after,
 .dp::before {
-    width: 100vw;
+    width: auto;
     height: auto;
 }
 
@@ -1595,7 +1595,7 @@ footer {
     }
 
     .logo-top:hover {
-        transform: translateY(200px);
+        transform: translateY(100px);
         transition-duration: 1s
     }
 }
@@ -1778,9 +1778,9 @@ footer {
         flex-direction: column
     }
 
-    .dp {
+    .dp{
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
 
     .activeThismobiletab:before {
@@ -1854,7 +1854,9 @@ footer {
 
     .dp::after,
     .dp::before {
-        display: none
+        display: none;
+        width:100%;
+        height: auto;
     }
 
 
@@ -1974,7 +1976,7 @@ footer {
     }
 
     .dp img {
-        width: 200px
+        width: auto;
     }
 
     .two-words {
