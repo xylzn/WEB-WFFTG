@@ -982,7 +982,7 @@ noscript {
 .dp img,
 .dp::after,
 .dp::before {
-    width: auto;
+    width: 60%;
     height: auto;
 }
 
